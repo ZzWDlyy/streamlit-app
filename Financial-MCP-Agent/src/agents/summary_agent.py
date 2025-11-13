@@ -16,7 +16,7 @@ from utils.execution_logger import get_execution_logger
 from dotenv import load_dotenv
 
 # 从.env文件加载环境变量
-load_dotenv("Financial-MCP-Agent\.env")
+load_dotenv("Financial-MCP-Agent/.env")
 
 logger = setup_logger(__name__)
 
