@@ -1,0 +1,5 @@
+# packages.txt
+# Streamlit Cloud 需要的系统包
+
+# 如果需要中文字体支持
+fonts-wqy-zenhei

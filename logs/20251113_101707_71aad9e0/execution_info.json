@@ -1,0 +1,57 @@
+{
+  "execution_id": "20251113_101707_71aad9e0",
+  "start_time": "2025-11-13T10:17:07.365538",
+  "start_timestamp": 1763000227.3655388,
+  "environment": {
+    "python_version": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+    "working_directory": "F:\\pythonProject\\MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "deepseek-v3-1-250821",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://api.bltcy.ai/v1",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2025-11-13T10:18:22.022775",
+  "end_timestamp": 1763000302.0169094,
+  "total_execution_time_seconds": 74.65137052536011,
+  "success": true,
+  "error": null,
+  "status": "completed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": "fundamental_agent",
+        "success": true,
+        "execution_time": 18.48314142227173
+      },
+      {
+        "name": "main",
+        "success": false,
+        "execution_time": 0
+      },
+      {
+        "name": "news_agent",
+        "success": true,
+        "execution_time": 10.17533016204834
+      },
+      {
+        "name": "summary_agent",
+        "success": true,
+        "execution_time": 33.28589129447937
+      },
+      {
+        "name": "technical_agent",
+        "success": true,
+        "execution_time": 23.63755702972412
+      },
+      {
+        "name": "value_agent",
+        "success": false,
+        "execution_time": 36.37413239479065
+      }
+    ],
+    "llm_interactions_count": 4,
+    "tools_used_count": 0,
+    "total_files_created": 21
+  }
+}

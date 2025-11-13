@@ -1,0 +1,32 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-12T22:36:29.844876",
+  "start_timestamp": 1762958189.8448768,
+  "input_data": {
+    "user_query": "帮我分析一下贵州茅台",
+    "stock_code": null,
+    "company_name": "贵州茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:38:06.240807",
+  "end_timestamp": 1762958286.240808,
+  "execution_time_seconds": 96.35718703269958,
+  "output_data": {
+    "value_analysis_length": 0,
+    "analysis_preview": "",
+    "llm_execution_time": 95.36524415016174,
+    "total_execution_time": 96.35718703269958
+  },
+  "success": true,
+  "error": null
+}

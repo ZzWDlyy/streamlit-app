@@ -1,0 +1,32 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-12T22:31:11.968785",
+  "start_timestamp": 1762957871.9687858,
+  "input_data": {
+    "user_query": "帮我看看比亚迪这只股票怎么样",
+    "stock_code": null,
+    "company_name": "比亚迪",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:33:47.567123",
+  "end_timestamp": 1762958027.5671232,
+  "execution_time_seconds": 155.58931732177734,
+  "output_data": {
+    "technical_analysis_length": 79,
+    "analysis_preview": "由于无法获取比亚迪的基本信息和历史K线数据，我无法完成技术分析。建议您检查股票代码是否正确，或者稍后再试。如果您有其他股票代码或需求，请告诉我，我将尽力协助。",
+    "llm_execution_time": 154.56755113601685,
+    "total_execution_time": 155.58931732177734
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-12T22:20:57.268975",
+  "start_timestamp": 1762957257.2689753,
+  "input_data": {
+    "user_query": "分析腾讯",
+    "stock_code": null,
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:23:14.577080",
+  "end_timestamp": 1762957394.57708,
+  "execution_time_seconds": 137.30199265480042,
+  "output_data": {
+    "fundamental_analysis_length": 282,
+    "analysis_preview": "由于无法直接获取腾讯（Tencent）的股票代码（例如：港股代码为0700.HK），且当前工具主要支持中国A股市场的数据查询，因此无法直接获取腾讯的财务数据和基本面信息。\n\n### 建议解决方案：\n1. **确认股票代码**：腾讯在香港交易所上市，股票代码为0700.HK。如果需要分析港股数据，可能需要使用其他支持港股数据的工具或平台。\n2. **切换至A股分析**：如果您有兴趣分析中国A股市场的其他公司，可以提供具体的A股股票代码（例如：贵州茅台，代码为sh.600519），我可以为您进行详细的基本面分析。\n\n如果您有其他需求或可以调整分析目标，请告诉我！",
+    "llm_execution_time": 137.24849843978882,
+    "total_execution_time": 137.30199265480042
+  },
+  "success": true,
+  "error": null
+}

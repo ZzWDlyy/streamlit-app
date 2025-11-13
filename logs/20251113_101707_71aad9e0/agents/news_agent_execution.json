@@ -1,0 +1,32 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-13T10:17:12.301302",
+  "start_timestamp": 1763000232.3013024,
+  "input_data": {
+    "user_query": "给我分析一下宁德时代的财务状况",
+    "stock_code": null,
+    "company_name": "宁德时代",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T10:17:22.483402",
+  "end_timestamp": 1763000242.4834025,
+  "execution_time_seconds": 10.17533016204834,
+  "output_data": {
+    "news_analysis_length": 32,
+    "analysis_preview": "我来为您进行宁德时代的新闻分析。首先让我获取宁德时代的最新新闻。",
+    "llm_execution_time": 9.15422534942627,
+    "total_execution_time": 10.17533016204834
+  },
+  "success": true,
+  "error": null
+}

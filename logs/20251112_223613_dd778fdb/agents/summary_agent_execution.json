@@ -1,0 +1,41 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-12T22:38:06.241576",
+  "start_timestamp": 1762958286.241576,
+  "input_data": {
+    "user_query": "帮我分析一下贵州茅台",
+    "available_analyses": {
+      "fundamental": true,
+      "technical": true,
+      "value": true,
+      "news": true
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "news_analysis",
+      "technical_analysis",
+      "fundamental_analysis",
+      "value_analysis"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:38:56.398069",
+  "end_timestamp": 1762958336.3980691,
+  "execution_time_seconds": 50.15048313140869,
+  "output_data": {
+    "final_report_length": 50,
+    "report_path": "F:\\pythonProject\\MCP-Agent\\Financial-MCP-Agent\\reports\\report_帮我一下贵州茅台_20251112_223856.md",
+    "report_preview": "# 贵州茅台 (SH.600519) 综合分析报告  \n**分析基准日期：2025年11月12日**",
+    "llm_execution_time": 50.14545178413391,
+    "total_execution_time": 50.15048313140869
+  },
+  "success": true,
+  "error": null
+}

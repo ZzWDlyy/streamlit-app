@@ -1,0 +1,32 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-12T20:45:29.422877",
+  "start_timestamp": 1762951529.4228776,
+  "input_data": {
+    "user_query": "000001",
+    "stock_code": "sz.000001",
+    "company_name": null,
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T20:45:40.005108",
+  "end_timestamp": 1762951540.005109,
+  "execution_time_seconds": 10.572726488113403,
+  "output_data": {
+    "technical_analysis_length": 94,
+    "analysis_preview": "我无法获取股票的基本信息和历史K线数据，可能是因为数据源暂时不可用或格式问题。建议稍后再试，或者检查股票代码是否正确（sz.000001）。\n\n如果您有其他需求或需要进一步帮助，请告诉我！",
+    "llm_execution_time": 9.527819156646729,
+    "total_execution_time": 10.572726488113403
+  },
+  "success": true,
+  "error": null
+}

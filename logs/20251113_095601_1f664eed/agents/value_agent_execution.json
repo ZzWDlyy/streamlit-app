@@ -1,0 +1,32 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-13T09:56:10.617940",
+  "start_timestamp": 1762998970.6179402,
+  "input_data": {
+    "user_query": "分析嘉友国际",
+    "stock_code": null,
+    "company_name": "嘉友国际",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T09:56:53.339624",
+  "end_timestamp": 1762999013.339625,
+  "execution_time_seconds": 42.708646059036255,
+  "output_data": {
+    "value_analysis_length": 23,
+    "analysis_preview": "让我尝试查找嘉友国际的正确股票代码并进行分析：",
+    "llm_execution_time": 41.75523805618286,
+    "total_execution_time": 42.708646059036255
+  },
+  "success": true,
+  "error": null
+}

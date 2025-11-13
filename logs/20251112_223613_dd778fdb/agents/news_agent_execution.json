@@ -1,0 +1,32 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-12T22:36:29.841878",
+  "start_timestamp": 1762958189.841879,
+  "input_data": {
+    "user_query": "帮我分析一下贵州茅台",
+    "stock_code": null,
+    "company_name": "贵州茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:36:45.331740",
+  "end_timestamp": 1762958205.3317406,
+  "execution_time_seconds": 15.48435115814209,
+  "output_data": {
+    "news_analysis_length": 235,
+    "analysis_preview": "目前无法获取到与贵州茅台相关的最新新闻。这可能是因为以下原因之一：\n\n1. **数据源限制**：当前的新闻爬取工具未能检索到相关新闻。\n2. **时间点问题**：当前时间（2025年11月12日）可能没有最新的新闻发布。\n\n### 建议下一步操作：\n1. **手动检查新闻来源**：可以通过其他新闻平台（如新浪财经、东方财富等）手动搜索贵州茅台的最新动态。\n2. **稍后再试**：新闻数据可能会在稍后更新，建议稍后重新尝试。\n\n如果您有其他具体需求或问题，请随时告知！",
+    "llm_execution_time": 14.453176259994507,
+    "total_execution_time": 15.48435115814209
+  },
+  "success": true,
+  "error": null
+}

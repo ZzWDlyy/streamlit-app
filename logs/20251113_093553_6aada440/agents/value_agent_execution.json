@@ -1,0 +1,32 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-13T09:36:04.001389",
+  "start_timestamp": 1762997764.0013893,
+  "input_data": {
+    "user_query": "我想了解一下腾讯的投资价值",
+    "stock_code": null,
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T09:36:22.325374",
+  "end_timestamp": 1762997782.3253741,
+  "execution_time_seconds": 18.31090521812439,
+  "output_data": {
+    "value_analysis_length": 236,
+    "analysis_preview": "由于无法获取腾讯（股票代码：Unknown）的具体信息，我无法完成完整的估值分析。以下是可能的解决方案：\n\n1. **确认股票代码**：腾讯在中国A股的股票代码可能是“sh.600000”（浦发银行），但需要确认是否为腾讯的股票代码。\n2. **检查数据源**：当前数据源无法提供所需信息，可能需要其他数据接口或工具。\n\n如果您能提供腾讯的正确股票代码（例如“sh.600000”或其他），我可以重新尝试获取数据并进行分析。否则，建议使用其他数据来源或工具来完成估值分析。",
+    "llm_execution_time": 16.344507455825806,
+    "total_execution_time": 18.31090521812439
+  },
+  "success": true,
+  "error": null
+}

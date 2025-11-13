@@ -1,0 +1,41 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-13T10:17:12.305358",
+  "start_timestamp": 1763000232.3053582,
+  "input_data": {
+    "user_query": "给我分析一下宁德时代的财务状况",
+    "stock_code": null,
+    "company_name": "宁德时代",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-13T10:17:48.721020",
+  "end_timestamp": 1763000268.72102,
+  "execution_time_seconds": 36.37413239479065,
+  "output_data": {
+    "query": "给我分析一下宁德时代的财务状况",
+    "current_date": "2025-11-13",
+    "current_date_cn": "2025年11月13日",
+    "current_time": "10:17:11",
+    "current_weekday_cn": "星期四",
+    "current_time_info": "2025年11月13日 (2025-11-13) 星期四 10:17:11",
+    "analysis_timestamp": "2025-11-13T10:17:11.904929",
+    "company_name": "宁德时代",
+    "news_analysis": "我来为您进行宁德时代的新闻分析。首先让我获取宁德时代的最新新闻。",
+    "fundamental_analysis": "",
+    "technical_analysis": "",
+    "value_analysis_error": "Error in MCP or agent execution: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "value_analysis": "估值分析过程中出现错误: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+  },
+  "success": false,
+  "error": "1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+}

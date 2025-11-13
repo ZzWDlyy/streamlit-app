@@ -1,0 +1,41 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-12T20:46:11.898665",
+  "start_timestamp": 1762951571.898665,
+  "input_data": {
+    "user_query": "000001",
+    "available_analyses": {
+      "fundamental": true,
+      "technical": true,
+      "value": true,
+      "news": true
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code",
+      "technical_analysis",
+      "value_analysis",
+      "news_analysis",
+      "fundamental_analysis"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T20:47:04.231256",
+  "end_timestamp": 1762951624.2312562,
+  "execution_time_seconds": 52.32308483123779,
+  "output_data": {
+    "final_report_length": 87,
+    "report_path": "F:\\pythonProject\\MCP-Agent\\Financial-MCP-Agent\\reports\\report_000001_000001_20251112_204704.md",
+    "report_preview": "# Unknown Company (sz.000001) 综合分析报告  \n**分析基准日期：2025年11月12日 (2025-11-12) 星期三 20:45:28**",
+    "llm_execution_time": 52.31830191612244,
+    "total_execution_time": 52.32308483123779
+  },
+  "success": true,
+  "error": null
+}

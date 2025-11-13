@@ -1,0 +1,32 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-13T10:12:27.695159",
+  "start_timestamp": 1762999947.695159,
+  "input_data": {
+    "user_query": "给我分析一下宁德时代的财务状况",
+    "stock_code": null,
+    "company_name": "宁德时代",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T10:12:55.800076",
+  "end_timestamp": 1762999975.800076,
+  "execution_time_seconds": 28.094371795654297,
+  "output_data": {
+    "value_analysis_length": 43,
+    "analysis_preview": "我来为您分析宁德时代（股票代码：sz.300750）的估值情况。首先让我获取相关数据。",
+    "llm_execution_time": 27.10752034187317,
+    "total_execution_time": 28.094371795654297
+  },
+  "success": true,
+  "error": null
+}

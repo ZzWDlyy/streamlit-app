@@ -1,0 +1,30 @@
+{
+  "interaction_id": "ddc58b2d",
+  "agent_name": "technical_agent",
+  "interaction_type": "react_agent",
+  "timestamp": "2025-11-13T09:41:50.956344",
+  "model_config": {
+    "model": "deepseek-ai/DeepSeek-V3",
+    "temperature": 0.3,
+    "max_tokens": 6000,
+    "api_base": "https://api.siliconflow.cn/v1"
+  },
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "请分析嘉友国际（股票代码：Unknown）的技术指标。\n\n当前时间：2025年11月13日 (2025-11-13) 星期四 09:41:25\n当前日期：2025-11-13\n\n请进行以下技术分析：\n1. 获取股票基本信息和最新价格\n2. 获取历史K线数据（建议获取最近3-6个月的数据）\n3. 分析价格趋势和技术形态\n4. 分析成交量变化\n5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）\n6. 识别支撑位和阻力位\n7. 提供技术面总结和短期走势判断\n\n重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。\n\n请使用可用的工具获取实际数据进行分析，而不是基于假设。"
+      }
+    ],
+    "message_count": 1,
+    "total_input_length": 341
+  },
+  "output": {
+    "content": "目前无法获取嘉友国际的股票代码信息，可能是因为数据源中没有相关数据或股票代码不正确。如果您能提供正确的股票代码（例如：sh.600000 或 sz.000001），我可以为您进行技术分析。\n\n如果您不确定股票代码，可以尝试以下方法：\n1. 确认股票名称是否正确（例如是否为“嘉友国际”）。\n2. 提供更具体的股票信息（如上市交易所）。\n\n请提供更多信息以便继续分析。",
+    "content_length": 183
+  },
+  "performance": {
+    "execution_time_seconds": 23.60865592956543,
+    "token_usage": null
+  }
+}

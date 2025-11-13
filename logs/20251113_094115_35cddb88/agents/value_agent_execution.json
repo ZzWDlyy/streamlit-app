@@ -1,0 +1,32 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-13T09:41:26.315619",
+  "start_timestamp": 1762998086.3156195,
+  "input_data": {
+    "user_query": "分析嘉友国际",
+    "stock_code": null,
+    "company_name": "嘉友国际",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T09:41:46.174150",
+  "end_timestamp": 1762998106.1741502,
+  "execution_time_seconds": 19.82116675376892,
+  "output_data": {
+    "value_analysis_length": 80,
+    "analysis_preview": "目前无法获取嘉友国际的股票代码，因此无法进行具体的估值分析。建议提供正确的股票代码（例如：sh.600000或sz.000001），以便获取相关数据并进行分析。",
+    "llm_execution_time": 18.826894521713257,
+    "total_execution_time": 19.82116675376892
+  },
+  "success": true,
+  "error": null
+}

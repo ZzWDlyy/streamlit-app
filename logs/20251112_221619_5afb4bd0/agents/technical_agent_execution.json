@@ -1,0 +1,29 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-12T22:16:20.700327",
+  "start_timestamp": 1762956980.7003272,
+  "input_data": {
+    "user_query": "分析贵州茅台(600519)",
+    "stock_code": "sh.600519",
+    "company_name": "贵州茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:16:34.101636",
+  "end_timestamp": 1762956994.101637,
+  "execution_time_seconds": 13.39329481124878,
+  "output_data": {
+    "technical_analysis_length": 137,
+    "analysis_preview": "目前无法获取贵州茅台（sh.600519）的历史K线数据和技术指标数据，因为数据接口返回了“用户未登录”的错误。这可能是因为需要登录或权限问题。\n\n如果您有其他方式获取这些数据，或者可以手动提供相关数据，我可以帮助您进行分析。否则，建议您检查数据接口的权限或登录状态后重试。",
+    "llm_execution_time": 12.365205764770508,
+    "total_execution_time": 13.39329481124878
+  },
+  "success": true,
+  "error": null
+}

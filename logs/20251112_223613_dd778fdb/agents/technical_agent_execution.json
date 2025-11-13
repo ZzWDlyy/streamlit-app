@@ -1,0 +1,32 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-12T22:36:29.842877",
+  "start_timestamp": 1762958189.842877,
+  "input_data": {
+    "user_query": "帮我分析一下贵州茅台",
+    "stock_code": null,
+    "company_name": "贵州茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:37:06.853722",
+  "end_timestamp": 1762958226.854723,
+  "execution_time_seconds": 37.001845836639404,
+  "output_data": {
+    "technical_analysis_length": 143,
+    "analysis_preview": "目前无法获取贵州茅台（股票代码：sh.600519）的基本信息和历史数据。可能是由于数据源的问题或权限限制。\n\n如果您有其他方式获取贵州茅台的股票代码或相关数据，请提供更多信息，我将尽力为您进行技术分析。否则，建议您通过其他金融数据平台（如东方财富、同花顺等）获取相关数据后再进行分析。",
+    "llm_execution_time": 35.98170065879822,
+    "total_execution_time": 37.001845836639404
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,43 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-13T10:10:05.963482",
+  "start_timestamp": 1762999805.9634824,
+  "input_data": {
+    "user_query": "分析嘉友国际",
+    "stock_code": null,
+    "company_name": "嘉友国际",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-13T10:11:09.378705",
+  "end_timestamp": 1762999869.3787055,
+  "execution_time_seconds": 63.40719652175903,
+  "output_data": {
+    "query": "分析嘉友国际",
+    "current_date": "2025-11-13",
+    "current_date_cn": "2025年11月13日",
+    "current_time": "10:10:05",
+    "current_weekday_cn": "星期四",
+    "current_time_info": "2025年11月13日 (2025-11-13) 星期四 10:10:05",
+    "analysis_timestamp": "2025-11-13T10:10:05.598013",
+    "company_name": "嘉友国际",
+    "news_analysis": "",
+    "fundamental_analysis_error": "Error in MCP or agent execution: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "fundamental_analysis": "基本面分析过程中出现错误: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "value_analysis_error": "Error in MCP or agent execution: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "value_analysis": "估值分析过程中出现错误: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "technical_analysis_error": "Error in MCP or agent execution: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "technical_analysis": "技术分析过程中出现错误: 1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+  },
+  "success": false,
+  "error": "1 validation error for ChatMessage\nrole\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+}

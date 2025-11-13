@@ -1,0 +1,32 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-13T09:56:10.616940",
+  "start_timestamp": 1762998970.61694,
+  "input_data": {
+    "user_query": "分析嘉友国际",
+    "stock_code": null,
+    "company_name": "嘉友国际",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T09:56:33.284436",
+  "end_timestamp": 1762998993.2844362,
+  "execution_time_seconds": 22.6575825214386,
+  "output_data": {
+    "technical_analysis_length": 0,
+    "analysis_preview": "",
+    "llm_execution_time": 21.682705879211426,
+    "total_execution_time": 22.6575825214386
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-12T22:16:19.899798",
+  "start_timestamp": 1762956979.8997982,
+  "input_data": {
+    "user_query": "分析贵州茅台(600519)",
+    "stock_code": "sh.600519",
+    "company_name": "贵州茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:19:32.089281",
+  "end_timestamp": 1762957172.0892816,
+  "execution_time_seconds": 192.18326497077942,
+  "output_data": {
+    "fundamental_analysis_length": 485,
+    "analysis_preview": "历史分红数据获取失败。\n\n---\n\n### 8. 基本面综合评估和投资价值分析\n由于目前无法通过工具获取具体数据，我将基于贵州茅台的历史表现和行业地位提供一般性分析：\n\n#### 综合评估：\n- **行业地位**：贵州茅台是中国白酒行业的龙头企业，品牌价值高，产品需求稳定。\n- **盈利能力**：历史上毛利率和净利率均处于行业领先水平，ROE较高。\n- **成长能力**：收入增长率稳定，利润增长受产品提价和销量驱动。\n- **运营效率**：存货周转率较低（因白酒行业特性），但应收账款周转率较高。\n- **偿债能力**：资产负债率通常较低，现金流充裕。\n\n#### 投资价值：\n- **优势**：品牌护城河深，定价能力强，现金流稳定。\n- **风险**：政策风险（如限价令）、消费习惯变化。\n\n---\n\n### 下一步建议：\n如果需要对贵州茅台进行更深入的分析，建议：\n1. 手动登录数据源（如Baostock）获取最新数据。\n2. 结合其他数据平台（如Wind、同花顺）补充信息。\n3. 关注公司公告和行业报告。\n\n如果您有其他具体需求或需要尝试其他工具，请告知！",
+    "llm_execution_time": 190.37119436264038,
+    "total_execution_time": 192.18326497077942
+  },
+  "success": true,
+  "error": null
+}

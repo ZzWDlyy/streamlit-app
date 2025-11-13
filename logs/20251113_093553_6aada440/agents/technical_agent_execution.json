@@ -1,0 +1,32 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-13T09:36:03.999389",
+  "start_timestamp": 1762997763.999389,
+  "input_data": {
+    "user_query": "我想了解一下腾讯的投资价值",
+    "stock_code": null,
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T09:36:16.398074",
+  "end_timestamp": 1762997776.3980742,
+  "execution_time_seconds": 12.386345148086548,
+  "output_data": {
+    "technical_analysis_length": 134,
+    "analysis_preview": "由于无法获取当前所有股票的列表信息，我需要手动确认腾讯的股票代码。腾讯控股在香港上市，股票代码为0700.HK。然而，当前工具仅支持中国A股市场的数据查询，无法获取港股数据。\n\n如果您有其他中国A股股票的代码，我可以为您提供详细的技术分析。请提供股票代码以便继续分析。",
+    "llm_execution_time": 10.425866842269897,
+    "total_execution_time": 12.386345148086548
+  },
+  "success": true,
+  "error": null
+}

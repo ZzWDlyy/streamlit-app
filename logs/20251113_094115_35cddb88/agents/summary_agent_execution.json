@@ -1,0 +1,41 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-13T09:41:58.544948",
+  "start_timestamp": 1762998118.5449483,
+  "input_data": {
+    "user_query": "分析嘉友国际",
+    "available_analyses": {
+      "fundamental": true,
+      "technical": true,
+      "value": true,
+      "news": true
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "news_analysis",
+      "value_analysis",
+      "technical_analysis",
+      "fundamental_analysis"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T09:42:26.773498",
+  "end_timestamp": 1762998146.7734985,
+  "execution_time_seconds": 28.21904230117798,
+  "output_data": {
+    "final_report_length": 47,
+    "report_path": "F:\\pythonProject\\MCP-Agent\\Financial-MCP-Agent\\reports\\report_嘉友国际_20251113_094226.md",
+    "report_preview": "# 嘉友国际 (股票代码未知) 综合分析报告  \n**分析基准日期：2025年11月13日**",
+    "llm_execution_time": 28.211541891098022,
+    "total_execution_time": 28.21904230117798
+  },
+  "success": true,
+  "error": null
+}

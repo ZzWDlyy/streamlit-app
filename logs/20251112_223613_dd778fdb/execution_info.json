@@ -1,0 +1,57 @@
+{
+  "execution_id": "20251112_223613_dd778fdb",
+  "start_time": "2025-11-12T22:36:13.089787",
+  "start_timestamp": 1762958173.0897872,
+  "environment": {
+    "python_version": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+    "working_directory": "F:\\pythonProject\\MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "deepseek-ai/DeepSeek-V3",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://api.siliconflow.cn/v1",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2025-11-12T22:38:56.405094",
+  "end_timestamp": 1762958336.399584,
+  "total_execution_time_seconds": 163.30979681015015,
+  "success": true,
+  "error": null,
+  "status": "completed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": "fundamental_agent",
+        "success": true,
+        "execution_time": 41.698302030563354
+      },
+      {
+        "name": "main",
+        "success": false,
+        "execution_time": 0
+      },
+      {
+        "name": "news_agent",
+        "success": true,
+        "execution_time": 15.48435115814209
+      },
+      {
+        "name": "summary_agent",
+        "success": true,
+        "execution_time": 50.15048313140869
+      },
+      {
+        "name": "technical_agent",
+        "success": true,
+        "execution_time": 37.001845836639404
+      },
+      {
+        "name": "value_agent",
+        "success": true,
+        "execution_time": 96.35718703269958
+      }
+    ],
+    "llm_interactions_count": 5,
+    "tools_used_count": 0,
+    "total_files_created": 23
+  }
+}

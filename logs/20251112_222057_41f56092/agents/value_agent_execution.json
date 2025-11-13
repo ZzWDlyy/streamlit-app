@@ -1,0 +1,28 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-12T22:20:57.289539",
+  "start_timestamp": 1762957257.2895393,
+  "input_data": {
+    "user_query": "分析腾讯",
+    "stock_code": null,
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:21:47.006168",
+  "end_timestamp": 1762957307.0061684,
+  "execution_time_seconds": 49.708613872528076,
+  "output_data": {
+    "value_analysis_length": 164,
+    "analysis_preview": "由于无法获取腾讯的股票代码（例如：'sh.600000' 或 'sz.000001'），我无法直接查询其基本信息、估值指标和历史数据。腾讯是中国香港上市的股票（代码：0700.HK），而当前工具主要支持中国A股市场的数据。\n\n如果您能提供腾讯在中国A股的股票代码，我可以进一步帮助分析。否则，建议使用其他工具或平台查询港股数据。",
+    "llm_execution_time": 49.69224762916565,
+    "total_execution_time": 49.708613872528076
+  },
+  "success": true,
+  "error": null
+}

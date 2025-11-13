@@ -1,0 +1,32 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-13T09:36:03.158466",
+  "start_timestamp": 1762997763.1584668,
+  "input_data": {
+    "user_query": "我想了解一下腾讯的投资价值",
+    "stock_code": null,
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T09:36:26.200199",
+  "end_timestamp": 1762997786.2001991,
+  "execution_time_seconds": 23.035534620285034,
+  "output_data": {
+    "fundamental_analysis_length": 158,
+    "analysis_preview": "目前无法获取腾讯（股票代码：Unknown）的基本信息和行业背景数据，可能是因为腾讯在香港上市（股票代码：0700.HK），而当前工具主要支持中国A股市场的数据。\n\n如果您能提供腾讯在中国A股市场的股票代码（如果有），我可以进一步帮助分析其基本面情况。否则，建议使用其他专门针对港股市场的工具或数据源来获取相关信息。",
+    "llm_execution_time": 20.187923192977905,
+    "total_execution_time": 23.035534620285034
+  },
+  "success": true,
+  "error": null
+}

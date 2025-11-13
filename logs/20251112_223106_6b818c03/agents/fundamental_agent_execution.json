@@ -1,0 +1,32 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-12T22:31:11.172239",
+  "start_timestamp": 1762957871.1722393,
+  "input_data": {
+    "user_query": "帮我看看比亚迪这只股票怎么样",
+    "stock_code": null,
+    "company_name": "比亚迪",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:35:03.884054",
+  "end_timestamp": 1762958103.8840544,
+  "execution_time_seconds": 232.7013065814972,
+  "output_data": {
+    "fundamental_analysis_length": 687,
+    "analysis_preview": "目前无法直接从数据源获取比亚迪（股票代码：`sz.002594`）的财务数据和基本面指标，可能是因为数据源的访问限制或其他技术问题。\n\n### 基本面分析建议\n由于无法获取实际数据，以下是基于一般财务分析框架的建议：\n\n1. **公司基本信息和行业背景**  \n   - 比亚迪是中国领先的新能源汽车和电池制造商，业务涵盖电动汽车、电池、光伏等领域。\n\n2. **最新财务报表数据**  \n   - 建议通过比亚迪的官方财报或第三方金融平台（如东方财富、同花顺）获取最新的资产负债表、利润表和现金流量表。\n\n3. **盈利能力指标**  \n   - 关注毛利率、净利率和ROE（净资产收益率），这些指标反映公司的盈利能力和股东回报。\n\n4. **成长能力指标**  \n   - 分析收入增长率和利润增长率，尤其是新能源汽车业务的增长情况。\n\n5. **运营效率指标**  \n   - 应收周转率和存货周转率可以反映公司的运营效率和管理能力。\n\n6. **偿债能力指标**  \n   - 资产负债率和流动比率是衡量公司财务健康的重要指标。\n\n7. **历史分红情况**  \n   - 比亚迪的分红政策可",
+    "llm_execution_time": 230.87076592445374,
+    "total_execution_time": 232.7013065814972
+  },
+  "success": true,
+  "error": null
+}

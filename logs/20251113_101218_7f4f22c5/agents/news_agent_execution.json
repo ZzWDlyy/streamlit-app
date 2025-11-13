@@ -1,0 +1,32 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-13T10:12:27.692059",
+  "start_timestamp": 1762999947.6920593,
+  "input_data": {
+    "user_query": "给我分析一下宁德时代的财务状况",
+    "stock_code": null,
+    "company_name": "宁德时代",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-13T10:14:37.759110",
+  "end_timestamp": 1763000077.7591105,
+  "execution_time_seconds": 130.05904722213745,
+  "output_data": {
+    "news_analysis_length": 2039,
+    "analysis_preview": "## 宁德时代新闻分析报告\n\n由于当前无法获取到宁德时代的实际新闻数据，我将基于对宁德时代（CATL，全球领先的动力电池制造商）的行业地位和市场环境的了解，提供一个结构化的分析框架。请注意，以下分析是基于一般性行业知识而非实际新闻数据。\n\n### 1. 新闻情感分析（基于典型新闻类型）\n\n**典型新闻类型及情感评分：**\n\n| 新闻类型 | 情感评分 | 说明 |\n|---------|---------|------|\n| 技术突破/新产品发布 | 5分（极正面） | 如固态电池、钠离子电池等技术突破 |\n| 重大订单/合作协议 | 4-5分（正面到极正面） | 与国内外车企的新合作 |\n| 财报超预期 | 4分（正面） | 营收和利润增长超预期 |\n| 行业政策利好 | 4分（正面） | 新能源政策支持 |\n| 产能扩张进展 | 3-4分（中性到正面） | 新生产基地建设 |\n| 原材料价格波动 | 2-3分（轻微负面到中性） | 锂价等原材料成本变化 |\n| 竞争对手动态 | 3分（中性） | 竞争对手技术或市场进展 |\n| 监管政策变化 | 2分（轻微负面） | 行业监管政策调",
+    "llm_execution_time": 129.08282256126404,
+    "total_execution_time": 130.05904722213745
+  },
+  "success": true,
+  "error": null
+}

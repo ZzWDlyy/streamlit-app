@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-11-12T22:20:24.182418",
+  "report_path": "F:\\pythonProject\\MCP-Agent\\Financial-MCP-Agent\\reports\\error_report_贵州茅台_600519_20251112_222024.md",
+  "report_length": 443,
+  "report_preview": "\n        # Analysis Report for 贵州茅台 (sh.600519)\n        \n        **Error encountered during report generation**: list index out of range\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Available\n        - Technical Analysis: Available\n        - Value Analysis: Available\n        - News Analysis: Available\n        \n        Please review the individual analyses directly for more information.\n        "
+}

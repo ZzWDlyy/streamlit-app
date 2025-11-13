@@ -1,0 +1,41 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-12T22:35:03.885570",
+  "start_timestamp": 1762958103.88557,
+  "input_data": {
+    "user_query": "帮我看看比亚迪这只股票怎么样",
+    "available_analyses": {
+      "fundamental": true,
+      "technical": true,
+      "value": true,
+      "news": true
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "news_analysis",
+      "value_analysis",
+      "technical_analysis",
+      "fundamental_analysis"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:35:49.234638",
+  "end_timestamp": 1762958149.2346387,
+  "execution_time_seconds": 45.34105205535889,
+  "output_data": {
+    "final_report_length": 49,
+    "report_path": "F:\\pythonProject\\MCP-Agent\\Financial-MCP-Agent\\reports\\report_帮我看看比亚迪这只股票怎么样_20251112_223549.md",
+    "report_preview": "# 比亚迪 (sz.002594) 综合分析报告  \n**分析基准日期：2025年11月12日**",
+    "llm_execution_time": 45.33390736579895,
+    "total_execution_time": 45.34105205535889
+  },
+  "success": true,
+  "error": null
+}

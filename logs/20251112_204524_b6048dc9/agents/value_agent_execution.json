@@ -1,0 +1,32 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-12T20:45:29.423877",
+  "start_timestamp": 1762951529.4238775,
+  "input_data": {
+    "user_query": "000001",
+    "stock_code": "sz.000001",
+    "company_name": null,
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T20:45:46.865604",
+  "end_timestamp": 1762951546.8656044,
+  "execution_time_seconds": 17.40438413619995,
+  "output_data": {
+    "value_analysis_length": 124,
+    "analysis_preview": "由于无法获取相关数据（API返回“用户未登录”错误），目前无法完成对“Unknown”（股票代码：sz.000001）的估值分析。建议检查API访问权限或联系技术支持以解决登录问题。\n\n如果您有其他数据来源或工具可用，可以提供相关信息以便继续分析。",
+    "llm_execution_time": 16.4124596118927,
+    "total_execution_time": 17.40438413619995
+  },
+  "success": true,
+  "error": null
+}

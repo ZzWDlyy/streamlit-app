@@ -1,0 +1,28 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-12T22:20:57.276570",
+  "start_timestamp": 1762957257.27657,
+  "input_data": {
+    "user_query": "分析腾讯",
+    "stock_code": null,
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "analysis_timestamp",
+      "company_name"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-12T22:21:40.669276",
+  "end_timestamp": 1762957300.6692767,
+  "execution_time_seconds": 43.384193420410156,
+  "output_data": {
+    "news_analysis_length": 307,
+    "analysis_preview": "目前无法获取与腾讯相关的最新新闻数据。这可能是因为以下原因之一：\n\n1. **新闻源限制**：当前的新闻爬取工具未能检索到相关新闻。\n2. **关键词限制**：可能需要更具体的关键词（例如“腾讯控股”、“腾讯财报”等）。\n3. **时间限制**：2025年11月12日的新闻数据可能尚未更新或未被收录。\n\n### 建议下一步操作：\n1. **尝试其他关键词**：例如“腾讯控股”、“腾讯2025年财报”等。\n2. **手动检查新闻源**：访问权威财经网站（如新浪财经、东方财富网）获取最新新闻。\n3. **调整时间范围**：可能需要更近的时间范围。\n\n如果您有其他具体需求或关键词，请告诉我，我将尝试进一步帮助您。",
+    "llm_execution_time": 43.37722611427307,
+    "total_execution_time": 43.384193420410156
+  },
+  "success": true,
+  "error": null
+}
