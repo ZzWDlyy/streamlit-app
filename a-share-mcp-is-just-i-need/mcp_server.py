@@ -60,7 +60,8 @@ register_news_crawler_tools(app, active_data_source)
 
 # --- Main Execution Block ---
 if __name__ == "__main__":
+    import uvicorn
     logger.info(
-        f"Starting A-Share MCP Server via stdio... Today is {current_date}")
-    # Run the server using stdio transport, suitable for MCP Hosts like Claude Desktop
-    app.run(transport='stdio')
+        f"Starting A-Share MCP Server via HTTP... Today is {current_date}")
+    # 运行一个标准的HTTP服务器，监听所有网络接口(0.0.0.0)的8000端口
+    uvicorn.run(app, host="0.0.0.0", port=8000)

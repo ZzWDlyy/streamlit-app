@@ -31,12 +31,7 @@ def print_tool_details(tools):
 
 async def get_mcp_tools():
     """
-    使用定义的服务器配置初始化MultiServerMCPClient，
-    并从a-share-mcp-v2服务器获取可用工具。
-
-    返回:
-        list: 从MCP服务器加载的LangChain兼容工具列表。
-              如果初始化或工具加载失败，则返回空列表。
+    初始化MultiServerMCPClient，并从云端的 a_share_mcp_v2 服务器获取工具。
     """
     global _mcp_client_instance, _mcp_tools
 
@@ -44,39 +39,45 @@ async def get_mcp_tools():
         logger.info(f"{SUCCESS_ICON} Returning cached MCP tools.")
         return _mcp_tools
 
-    logger.info(
-        f"{WAIT_ICON} Initializing MultiServerMCPClient with config: {SERVER_CONFIGS}")
+    # --- 关键修改：动态配置服务器 URL ---
     try:
-        _mcp_client_instance = MultiServerMCPClient(SERVER_CONFIGS)
+        # 1. 从 Streamlit Secrets 获取服务器的真实 URL
+        mcp_server_url = st.secrets["mcp_server_url"]
+        if not mcp_server_url:
+            raise ValueError("URL is empty.")
+    except (KeyError, ValueError):
+        logger.error(f"{ERROR_ICON} 'mcp_server_url' not found or is empty in Streamlit Secrets!")
+        _mcp_tools = []
+        return []
 
-        logger.info(
-            f"{WAIT_ICON} Fetching tools from MCP server 'a_share_mcp_v2'...")
-        # The get_tools() method is asynchronous.
+    # 2. 复制并更新配置
+    # 创建一个配置的深拷贝以避免修改原始导入的字典
+    import copy
+    current_configs = copy.deepcopy(SERVER_CONFIGS)
+    current_configs["a_share_mcp_v2"]["url"] = mcp_server_url
+
+    logger.info(f"{WAIT_ICON} Initializing MultiServerMCPClient with remote config: {current_configs}")
+    # --- 修改结束 ---
+
+    try:
+        # 3. 使用更新后的配置初始化客户端
+        _mcp_client_instance = MultiServerMCPClient(current_configs)
+
+        logger.info(f"{WAIT_ICON} Fetching tools from MCP server '{list(current_configs.keys())[0]}' via HTTP...")
         loaded_tools = await _mcp_client_instance.get_tools()
 
         if not loaded_tools:
-            logger.warning(
-                f"{ERROR_ICON} No tools loaded from MCP server 'a_share_mcp_v2'. Check server logs and configuration.")
-            _mcp_tools = []  # Cache empty list on failure to load
+            logger.warning(f"{ERROR_ICON} No tools loaded from MCP server. Check server logs and URL.")
+            _mcp_tools = []
             return []
 
         _mcp_tools = loaded_tools
-        logger.info(
-            f"{SUCCESS_ICON} Successfully loaded {len(_mcp_tools)} tools from 'a_share_mcp_v2'.")
-
-        # # 打印工具名称列表
-        # tool_names = [tool.name for tool in _mcp_tools]
-        # logger.info(f"工具名称列表: {tool_names}")
-
-        # 打印详细的工具信息
-        # print_tool_details(_mcp_tools)
-
+        logger.info(f"{SUCCESS_ICON} Successfully loaded {len(_mcp_tools)} tools via HTTP.")
         return _mcp_tools
 
     except Exception as e:
-        logger.error(
-            f"{ERROR_ICON} Failed to initialize MCP client or load tools: {e}", exc_info=True)
-        _mcp_tools = []  # Cache empty list on failure
+        logger.error(f"{ERROR_ICON} Failed to initialize MCP client or load tools via HTTP: {e}", exc_info=True)
+        _mcp_tools = []
         return []
 
 
