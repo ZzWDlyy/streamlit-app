@@ -3,6 +3,7 @@ from utils.logging_config import setup_logger, SUCCESS_ICON, ERROR_ICON, WAIT_IC
 from tools.mcp_config import SERVER_CONFIGS
 import asyncio  # 异步操作所需，如get_tools
 import json
+import streamlit as st
 
 logger = setup_logger(__name__)
 
